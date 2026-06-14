@@ -1,1 +1,52 @@
-Delta Technological University (DTU) is a prominent public Egyptian university established by Law No. 72 of 2019 to spearhead a new practical educational track in Egypt. Situated in the heart of the Qewaisna Industrial Zone in the Menofia Governorate, the university spans 96,000 square meters. Its strategic location allows students to balance classroom knowledge with practical, hands-on training in nearby factories. It is fully affiliated with the Ministry of Higher Education and Scientific Research.Academic ProgramsThe academic structure centers around the Faculty of Industry and Energy Technology. The university provides highly tailored, 4-year technical paths across several specializations:Mechatronics Technology: Covers advanced mechanical, electronic, and control systems.Autotronics Technology: Focuses on automotive electronics and advanced manufacturing.Information Technology: Based primarily at the university’s dedicated Sadat City branch.New and Renewable Energy: Concentrates on clean, green energy systems.Prosthetics and Orthotics: Bridges biomedical devices with technical engineering.Refrigeration and Air Conditioning: Covers complex modern thermal control systems.Degrees and StructureThe university utilizes a tiered path, merging practical on-field training with engineering theory:Professional Advanced Diploma: Awarded after completing the first 2 years.Professional Bachelor of Technology: Awarded upon completion of the full 4-year track.Postgraduate Degrees: DTU offers professional Master's and Doctoral tracks for continuous higher learning.Facilities and AdmissionInfrastructure: Features over 40 technical workshops and state-of-the-art laboratory spaces.Admissions: Students apply online through the official Egyptian government coordination system.Contact Information: You can contact them via phone at +20 48 2590372 or through email at info@dtu.edu.eg
+Abdelwahab Amr 
+                                      Cairo, Egypt | +20 127 271 0802 | abdelwahabamr769@gmail.com | LinkedIn | GitHub   
+ Summary 
+Data Scientist and AI Engineer with hands-on experience building and deploying end-to-end ML systems. Specialized in predictive 
+modeling, NLP, and MLOps practices including pipeline automation, experiment tracking, and containerized deployment. Proven 
+ability to deliver production-ready solutions across healthcare, e-commerce, and business forecasting domains. 
+Education 
+Delta Technology University               Sep 2021 - Jun 2026 
+Bachelor's, Software Engineering   
+Experience 
+Genius Technology Center - Machine Learning Intern             Sep 2025 - Oct 2025 
+• Built California House Price (R²=0.846, MAE=29K) and Diabetes Prediction Systems (94% accuracy, 85% recall).  
+•  Developed a Hybrid Recommendation System as the final project.  
+• Completed an intensive ML internship covering preprocessing, EDA, and deep learning basics. 
+Digital Egypt Pioneers Initiative - Data Scientist Intern             Nov 2024 - May 2025 
+• Trained by IBM & AMIT in Python, SQL, ML algorithms, model evaluation, and deployment. 
+• Developed multiple projects, including a complete Sales Forecasting System as the final project. 
+  
+Projects 
+Email Spam Classification Pipeline - Link - Live Demo 
+• Built an end-to-end MLOps pipeline (ingestion → preprocessing → training → evaluation → deployment)                                             
+ achieving  97% accuracy, 98 % AUC,  and 91% F1-score on 5500 record. 
+• Used Git, DVC, and YAML for version control, experiment tracking, and configuration management. 
+• Deployed a FastAPI app containerized with Docker on Hugging Face Spaces; implemented structured logging and exception handling. 
+ GitHub Issue Classifier - Link 
+• Built an automated NLP pipeline using Fine-tuned DistilBERT (GitHub API for ingestion) and a Custom Weighted Trainer to 
+effectively handle class imbalance. 
+• Engineered a modular MLOps workflow from preprocessing to evaluation, achieving a 74% F1-score on real-world software 
+engineering datasets. 
+• Deployed a containerized FastAPI web app via Docker, featuring a real-time inference interface with confidence scores and 
+probability distributions.                  
+Hybrid Recommendation System - Link 
+• Combined collaborative & content-based filtering (TF-IDF + Nearest Neighbors); improved personalization (RMSE = 0.93,       
+MAE = 0.81); deployed via Streamlit. 
+Sales Forecasting - Link 
+• Predicted units sold using Prophet, Random Forest, XGBoost, and Linear Regression; achieved best performance with XGBoost 
+(MAE = 7.19, R² = 0.992); deployed using FastAPI and tracked experiments with MLflow.  
+ 
+Skills 
+Programming: C++, Java, Python, SQL 
+AI, Machine Learning Libraries: Scikit-Learn,TensorFlow, PyTorch, Hugging Face 
+Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn, Power BI, Excel 
+Databases: SQLite, MySQL, MongoDB 
+Deployment & MLOps:  DVC, DVCLive, MLflow, Docker, FastAPI, Streamlit, Git, GitHub
+Soft Skills: Analytical Thinking, Problem Solving, Data Storytelling, Creativity, Team Collaboration, Time Management  
+Certificates 
+Fine -tuning Language Models -Hugging Face         May 2026 
+Machine Learning Specialization – Coursera           Oct   2025 
+Digital Egypt Pioneers Program – Data Scientist         May 2025 
+SQL - DataCamp           Jan   2025 
+Mathematics Certificate - 365 Data Science        Nov 2024 
+Data Science & Machine Learning - Black Horse                      Oct  2024      

@@ -1,32 +1,31 @@
-from langchain_community.embeddings import HuggingFaceEmbeddings
-import logging 
-import os 
 from config import Config
+import logging
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from logger_config import get_logger
+logger = get_logger("Embedding")
 
-log_dir="logs"
-os.makedirs(log_dir,exist_ok=True)
-
-logger=logging.getLogger("data_ingestion")
-logger.setLevel("DEBUG")
-
-consle_handler=logging.StreamHandler()
-consle_handler.setLevel("DEBUG")
-
-log_file_path=os.path.join(log_dir,"Project.log")
-file_handler=logging.FileHandler(log_file_path)
-file_handler.setLevel("DEBUG")
-
-formater=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-consle_handler.setFormatter(formater)
-file_handler.setFormatter(formater)
-
-logger.addHandler(consle_handler)
-logger.addHandler(file_handler)
 
 def embedding_data(chunks):
     try:
         embeddings=HuggingFaceEmbeddings(
-            model_name=Config.embedding_model,
-            model_kwargs={"device":"cpu"})
+        model_name=Config.embedding_model,
+        model_kwargs={"device":"cpu"})
         logger.info("embedding model is ready")
         vectors=embeddings.embed_documents(i.page_content for i in chunks)
+        return vectors,embeddings
+    except Exception as e:
+        logger.error("we have errro in embedding_data: ",e)
+
+def create_Vector_DB(chunks,embeddings):
+    try:
+        vector_DB=FAISS.from_documents(chunks,embeddings)
+        logger.info("VectroDB is created")
+        return vector_DB
+    except Exception as e:
+        logger.error("we have error in create_Vector_DB: ",e)
+
+
+
+
+
