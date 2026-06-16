@@ -11,3 +11,5 @@ class Config():
     chunk_overlap=int(os.getenv("chunk_overlap"))
     embedding_model=os.getenv("embedding_model")
     prompt=os.getenv("prompt")
+    url=os.getenv("url")
+    API_KEY2=os.getenv("X-API_KEY")

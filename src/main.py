@@ -4,7 +4,7 @@ from Embedding import embedding_data, create_Vector_DB
 from config import Config
 
 chat=define_llm()
-Doc=Get_Data(r"C:\Users\nice\Desktop\LLM & RAG\Personal-RAG-Chatbot\Abdelwahab_Amr.pdf")
+Doc=Get_Data("https://www.linkedin.com/in/abdelwahab-amr-a168892a3")
 chunks=Split_data(Doc)
 vectors,embeddings=embedding_data(chunks)
 vector_DB=create_Vector_DB(chunks,embeddings)
