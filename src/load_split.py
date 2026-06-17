@@ -30,7 +30,7 @@ def Get_Data(file_path=None):
             data = response.json()
             logger.info("data scraped done")
             linkedin_text=""
-            if "organic" in data and len(data["organic"])>=0:
+            if "organic" in data and len(data["organic"])>0:
                 for result in data["organic"]:
                     title = result.get("title", "")
                     snippet = result.get("snippet", "")

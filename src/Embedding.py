@@ -6,7 +6,7 @@ from logger_config import get_logger
 logger = get_logger("Embedding")
 
 
-def embedding_data(chunks):
+def embedding_data():
     try:
         embeddings=HuggingFaceEmbeddings(
         model_name=Config.embedding_model,
