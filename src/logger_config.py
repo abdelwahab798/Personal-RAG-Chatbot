@@ -1,8 +1,8 @@
 import logging
 import os
 
-log_dir = "logs"
-os.makedirs(log_dir, exist_ok=True)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.join(BASE_DIR, "logs")
 log_file_path = os.path.join(log_dir, "Project.log")
 
 def get_logger(module_name):

@@ -6,6 +6,7 @@ gathering.py
 # C extensions
 *.so
 expierment
+Data
 # Distribution / packaging
 .Python
 build/

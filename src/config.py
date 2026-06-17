@@ -13,3 +13,4 @@ class Config():
     prompt=os.getenv("prompt")
     url=os.getenv("url")
     API_KEY2=os.getenv("X-API_KEY")
+    DB_path=os.getenv("DB_path")
